@@ -2,6 +2,7 @@
 const firebaseConfig = {
     apiKey: "AIzaSyASuRYYagev8WAAEVONuk_teLqGBs1TNf4",
   authDomain: "gun-ceba8.firebaseapp.com",
+  databaseURL: "https://gun-ceba8-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "gun-ceba8",
   storageBucket: "gun-ceba8.firebasestorage.app",
   messagingSenderId: "325715316934",
