@@ -4,3 +4,15 @@ body {
     color: #1e293b;
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+  /* บังคับให้ SweetAlert2 ซ้อนทับกึ่งกลางหน้าจอมือถืออย่างแม่นยำ */
+  .swal2-container {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
